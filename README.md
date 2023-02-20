@@ -1,6 +1,6 @@
 # Classifying_White_Blood_Cells_with_Keras_Deep_Learning
 
-<img src="https://media.sciencephoto.com/image/c0215391/800wm/C0215391-Monocyte_white_blood_cell,_SEM.jpg" width=600 height=300>
+<img src="https://media.sciencephoto.com/image/c0215391/800wm/C0215391-Monocyte_white_blood_cell,_SEM.jpg" width=400 height=300>
 
 ## A deep learning classifier is created that classifiers lymphocytes (white blood cells) as cancerous or benign. 
 
