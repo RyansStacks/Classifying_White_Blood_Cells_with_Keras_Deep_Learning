@@ -1,4 +1,4 @@
-# Classifying_White_Blood_Cells_with_Keras_Deep_Learning
+# Classifying White Blood Cells with Keras Deep Learning
 
 <img src="https://media.sciencephoto.com/image/c0215391/800wm/C0215391-Monocyte_white_blood_cell,_SEM.jpg" width=400 height=300>
 
