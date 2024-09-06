@@ -20,7 +20,7 @@ The CNN modelling algorithm utilizes.......
 #### Normal Lymphocyte (note appearance may be larger)
 The lymphocyte is the 'purplish-blue' cell with the darker nucleus region of the cell in the center and what is referred to as the cytoplasm on the outer range. Normal lymphocytes may have much larger light blue cytoplasm that are commonly referred to as 'large lymphocytes' that are completely 'normal' pathogenically speaking.
 
-![N%20%284%29.png](/img/N%20%284%29.png)
+![N%20%284%29.png](./img/N%20%284%29.png)
 
 #### Reactive Lymphocyte (appears in infections)
 This particular cell type serves to test the robustness of the model by exhibiting characterists of both normal and malignant cell types. This is the initial phase of modelling using CNN to classify cell types. It is expected that subsequent modelling and possible data exploration could be necessary to explore effects of such intermediary cells. Again, red blood cells found in the background of the picture, normally found in blood films, may also create diminishing power of the model, but may be subsequently investigated in the "post-hoc" investigation by performing image processing such as diminishing values in the "red channel" to disipate the red cells from the background. However, staying a firm believer in rducing the number of variables in a study, the initial model will simply contain cell images "in-situ".
