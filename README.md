@@ -25,12 +25,12 @@ The lymphocyte is the 'purplish-blue' cell with the darker nucleus region of the
 #### Reactive Lymphocyte (appears in infections)
 This particular cell type serves to test the robustness of the model by exhibiting characterists of both normal and malignant cell types. This is the initial phase of modelling using CNN to classify cell types. It is expected that subsequent modelling and possible data exploration could be necessary to explore effects of such intermediary cells. Again, red blood cells found in the background of the picture, normally found in blood films, may also create diminishing power of the model, but may be subsequently investigated in the "post-hoc" investigation by performing image processing such as diminishing values in the "red channel" to disipate the red cells from the background. However, staying a firm believer in rducing the number of variables in a study, the initial model will simply contain cell images "in-situ".
 
-![N%20%281%29.png](N%20%281%29.png)
+![N%20%281%29.png](https://github.com/RyansStacks/Classifying_White_Blood_Cells_with_Keras_Deep_Learning/blob/main/img/N%20%281%29.png)
 
 #### Malignant Lymphocyte (Blasts) (present in cancers)
 Malignant lymphocytes are either morphologically altered normal lymphocytes that have changed due to a pathogenic environment (presence of molecules that prompt cellular change in the face of malignancy) or immature lymphocytes that are precursor cells to the normal lymphocyte. More common, the precursor cells depcited by a chronological lineage of cells, contains morphologically/visual changes that somewhat organize as one examines the cells further back within the lineage. As cells become more immature, the colorization of the cell tends to be darker in nature (dark purple and blue hues), larger (to be measured in future studies), and contains more abnormal features within the cells themselves. Most commonly, the features within immature cells is a very large nucleus that is described as "coarge" in appearance - almost with a grind glass cartoonish like sharpness. Furthermore, as seen with the cell below, abnormal additive features such as the bubble like inclusions seen below called vacuoles are common in malignant cells. 
 
-![P%20%2810%29.png](P%20%2810%29.png)
+![P%20%2810%29.png](https://github.com/RyansStacks/Classifying_White_Blood_Cells_with_Keras_Deep_Learning/blob/main/img/P%20%2810%29.png)
 
 ## Purpose
 
@@ -48,7 +48,7 @@ Below, highlights how each NumPy array should be structured for use with Keras m
 - width:_The width of image in pixels that is 28 in `NumPy`_
 - channel: _The method or schematic to represent color in this case the RGB system explained earlier_
 
-![NumPy_RGB_Array.png](NumPy_RGB_Array.png)
+![NumPy_RGB_Array.png](https://github.com/RyansStacks/Classifying_White_Blood_Cells_with_Keras_Deep_Learning/blob/main/img/NumPy_RGB_Array.png)
 
 ### Libraries and Precursors
 
@@ -149,7 +149,7 @@ print(pos_arrays[0].shape)
 
 
     
-![png](output_30_0.png)
+![png](https://github.com/RyansStacks/Classifying_White_Blood_Cells_with_Keras_Deep_Learning/blob/main/img/output_30_0.png)
     
 
 
@@ -158,7 +158,7 @@ print(pos_arrays[0].shape)
 
 
     
-![png](output_30_2.png)
+![png](https://github.com/RyansStacks/Classifying_White_Blood_Cells_with_Keras_Deep_Learning/blob/main/img/output_30_2.png)
     
 
 
@@ -332,7 +332,7 @@ predict()
 
 
     
-![png](output_49_0.png)
+![png](https://github.com/RyansStacks/Classifying_White_Blood_Cells_with_Keras_Deep_Learning/blob/main/img/output_49_0.png)
     
 
 
@@ -346,7 +346,7 @@ predict()
 
 
     
-![png](output_50_0.png)
+![png](https://github.com/RyansStacks/Classifying_White_Blood_Cells_with_Keras_Deep_Learning/blob/main/img/output_50_0.png)
     
 
 
@@ -360,7 +360,7 @@ predict()
 
 
     
-![png](output_51_0.png)
+![png](https://github.com/RyansStacks/Classifying_White_Blood_Cells_with_Keras_Deep_Learning/blob/main/img/output_51_0.png)
     
 
 
